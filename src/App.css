@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  text-decoration: none;
+}
+
+header {
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+  background-color: #516664;
+}
+
+a {
+  color: #073d3c;
+  text-decoration: none;
+}
+a:hover {
+  color: #b3e1e5;
+  font-weight: bold;
+}
+
+.logo {
+  height: 10rem;
+  padding: 1rem;
+}
+
+#tagline {
+  font-size: 3rem;
+  padding: 1rem 3rem;
+  color: #84afae;
+}
