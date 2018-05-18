@@ -7,37 +7,13 @@ export class Partners extends React.Component {
   render() {
     return (
       <div>
-        <div id="info3">
-        <a href="http://www.projectxite.org/" target="_blank">  <h2 id="sectionHeader"> Project X-ITE </h2> </a>
+        <div id="expandInfo">
+          <a href="https://pledge1colorado.org/" target="_blank">
+            <h2 id="sectionHeader">Pledge 1% Colorado</h2>
+          </a>
           <div id="partnerInfo">
             <h3>
-              Proud Partner with
-              <a href="http://www.projectxite.org/" target="_blank">
-                Project X-ITE
-              </a>
-              at the University of Denver
-            </h3>
-            <p>
-              <br />
-              Project X-ITE is staking out new ground where innovation,
-              technology and entrepreneurship intersect. It’s a
-              cross-disciplinary initiative, the first of its kind at the
-              University of Denver, to ignite new ideas across the University
-              and beyond, to build exciting, impactful partnerships with
-              creative thinkers and doers in industry and government. The
-              Project will leverage its location at the heart of Colorado’s
-              thriving high-tech innovation economy to collaborate directly with
-              industry and thought leaders.
-            </p>
-          </div>
-          <img src={projectXITE} />
-        </div>
-
-        <div id="info3">
-          <a href="https://pledge1colorado.org/" target="_blank"><h2 id="sectionHeader"> Pledge 1% Colorado </h2> </a>
-          <div id="partnerInfo">
-            <h3>
-              Proud member of
+              Proud member of{" "}
               <a href="https://pledge1colorado.org/" target="_blank">
                 Pledge 1% Colorado
               </a>
@@ -53,8 +29,39 @@ export class Partners extends React.Component {
               company. It’s an easy way to #givefirst.
             </p>
           </div>
+          <a href="https://pledge1colorado.org/" target="_blank">
+            <img src={pledge1CO} id="pledgePhoto" />
+          </a>
+        </div>
 
-          <img src={pledge1CO} id="pledgePhoto"/>
+        <div id="expandInfo">
+          <a href="http://www.projectxite.org/" target="_blank">
+            <h2 id="sectionHeader"> Project X-ITE </h2>
+          </a>
+          <div id="partnerInfo">
+            <h3>
+              Proud Partner with{" "}
+              <a href="http://www.projectxite.org/" target="_blank">
+                Project X-ITE{" "}
+              </a>{" "}
+              at the University of Denver
+            </h3>
+            <p>
+              <br />
+              Project X-ITE is staking out new ground where innovation,
+              technology and entrepreneurship intersect. It’s a
+              cross-disciplinary initiative, the first of its kind at the
+              University of Denver, to ignite new ideas across the University
+              and beyond, to build exciting, impactful partnerships with
+              creative thinkers and doers in industry and government. The
+              Project will leverage its location at the heart of Colorado’s
+              thriving high-tech innovation economy to collaborate directly with
+              industry and thought leaders.
+            </p>
+          </div>
+          <a href="http://www.projectxite.org/" target="_blank">
+            <img src={projectXITE} />
+          </a>
         </div>
       </div>
     );

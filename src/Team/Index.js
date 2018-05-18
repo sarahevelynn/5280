@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import { About } from "./About.js";
 import { Partners } from "./Partners.js";
+import { Team } from "./Team.js";
 
 
 export default class CompanyInfo extends React.Component {
@@ -10,6 +11,7 @@ export default class CompanyInfo extends React.Component {
     return (
       <div>
         <About />
+        <Team />
         <Partners />
       </div>
     );
