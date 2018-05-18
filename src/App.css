@@ -36,6 +36,13 @@ p {
   color: #383838;
 }
 
+footer {
+  display:flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-direction: row;
+}
+
 .logo {
   height: 11rem;
   padding: 1rem 0 0 1rem;
@@ -55,6 +62,17 @@ p {
 #navItem {
   padding: 0 1rem 0 0;
   color: #97ccca;
+}
+
+
+.socialPhoto {
+  width:70px;
+  padding: 0.5rem 3rem 0.5rem 1rem;
+}
+
+#copy {
+  font-size: 1rem;
+  padding:0.5rem 1rem 0.5rem 1rem
 }
 
 #denver {
@@ -103,6 +121,7 @@ p {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding:1rem 0;
 }
 
 #projectTile {
@@ -116,6 +135,53 @@ p {
 }
 
 #projectIcon {
-  width: 88%;
+  width: 86%;
   padding: 1rem;
+}
+
+#info1 {
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#info2 {
+  display:flex;
+  flex-direction: row;
+  width:95%;
+  padding:1rem;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#info3 {
+  display:flex;
+  flex-direction: row;
+  width:95%;
+  padding:1rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+
+#segment {
+  display:flex;
+  flex-direction: column;
+  width:95%;
+  padding:1rem;
+  justify-content: center;
+  align-items: center;
+}
+
+#sectionHeader {
+  font-size: 3rem;
+  padding:0 1rem;
+}
+
+#partnerInfo {
+  width:80%;
+  padding: 0 1rem;
 }

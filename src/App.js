@@ -4,6 +4,8 @@ import './App.css';
 import Header from "./Header/Header.js";
 import Footer from "./Footer/Footer.js";
 import Homepage from "./Welcome/Index.js"
+import CompanyInfo from "./Team/Index.js";
+
 class App extends Component {
   render() {
     return (
@@ -11,7 +13,8 @@ class App extends Component {
         <Router>
           <div className="App-content">
             <Header />
-            <Homepage />
+            <Route exact path="/" component={Homepage} />
+            <Route exact path="/about" component={CompanyInfo} />
             <Footer />
           </div>
       </Router>
