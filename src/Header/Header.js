@@ -5,25 +5,28 @@ import logo from "./logo.png";
 export default function Header() {
   return (
     <header id="header">
-    <div >
-      <Link to="/">
-        <img src={logo} className="logo" alt="logo" />
-      </Link>
-      </div >
+      <div>
+        <Link to="/">
+          <img src={logo} className="logo" alt="logo" />
+        </Link>
+      </div>
       <div id="navBar">
         <h2 id="tagline">Helping Startups Startup</h2>
         <nav>
           <Link to="/">
-            <h2 id="navItem"> Home </h2>
+            <h2 id="navItem">Home</h2>
           </Link>
+          <h2>::</h2>
           <Link to="/about">
-            <h2 id="navItem"> About Us </h2>
+            <h2 id="navItem">About Us </h2>
           </Link>
+          <h2>::</h2>
           <Link to="/services">
-            <h2 id="navItem"> Our Services </h2>
+            <h2 id="navItem">Our Services </h2>
           </Link>
+          <h2>::</h2>
           <Link to="/contact">
-            <h2 id="navItem"> Contact Us </h2>
+            <h2 id="navItem">Contact Us </h2>
           </Link>
         </nav>
       </div>

@@ -1,6 +1,17 @@
+@font-face {
+  font-family: DINAlternateBold;
+  src: url("./Fonts/DINAlternateBold.otf");
+}
+
+@font-face {
+  font-family: DINAlternateRegular;
+  src: url("./Fonts/DINAlternateRegular.otf");
+}
+
 .App {
   text-align: center;
   text-decoration: none;
+  font-family: DINAlternateRegular, sans-serif;
 }
 
 header {
@@ -8,11 +19,14 @@ header {
   justify-content: space-between;
   flex-direction: row;
   background-color: #516664;
+  font-family: DINAlternateBold, sans-serif;
 }
 
 nav {
   display: flex;
   flex-direction: row;
+  font-size: 1.2rem;
+  padding-right: 6rem
 }
 
 a {
@@ -37,7 +51,7 @@ p {
 }
 
 footer {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   align-items: baseline;
   flex-direction: row;
@@ -50,7 +64,6 @@ footer {
 
 #tagline {
   font-size: 3rem;
-  padding: 0rem 3rem 0rem 0rem;
   color: #84afae;
 }
 
@@ -60,26 +73,28 @@ footer {
 }
 
 #navItem {
-  padding: 0 1rem 0 0;
-  color: #97ccca;
+  padding: 0 1rem;
+  color: #bce0e5
+}
+#navItem:hover {
+  color: #9cbabc
 }
 
-
 .socialPhoto {
-  width:70px;
+  width: 70px;
   padding: 0.5rem 3rem 0.5rem 1rem;
 }
 
 #copy {
   font-size: 1rem;
-  padding:0.5rem 1rem 0.5rem 1rem
+  padding: 0.5rem 1rem 0.5rem 1rem;
 }
 
 #denver {
   width: 100%;
 }
 
-#navagationButtons {
+#squareSection {
   display: flex;
   flex-direction: row;
   padding: 0.5rem;
@@ -88,19 +103,19 @@ footer {
   align-items: center;
 }
 
-#welcome {
+#squareOne {
   padding: 1rem;
   width: 33%;
   background-color: #b3e1e5;
 }
 
-#internButton {
+#squareTwo {
   padding: 1rem;
   width: 33%;
   background-color: #ccf1f2;
 }
 
-#consultingButton {
+#squareThree {
   padding: 1rem;
   width: 33%;
   background-color: #b3e1e5;
@@ -117,11 +132,11 @@ footer {
 }
 
 #webProjects {
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding:1rem 0;
+  padding: 1rem 0;
 }
 
 #projectTile {
@@ -131,7 +146,7 @@ footer {
 
 #projectTitle {
   font-size: 1.5rem;
-  color:#516664
+  color: #516664;
 }
 
 #projectIcon {
@@ -139,18 +154,31 @@ footer {
   padding: 1rem;
 }
 
-#expandInfo {
-  display:flex;
+#expandInfo1 {
+  display: flex;
   flex-direction: row;
-  width:95%;
-  padding:1rem;
+  width: 95%;
+  padding: 1rem;
   justify-content: flex-start;
   align-items: flex-start;
+  background-color: #a2cccb;
+  margin: 1rem
+}
+
+#expandInfo2 {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  padding: 1rem;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #bce0e4;
+  margin: 1rem
 }
 
 #sectionHeader {
   font-size: 3rem;
-  padding:0 1rem;
+  padding: 0 1rem;
 }
 
 #partnerInfo {
@@ -163,11 +191,27 @@ footer {
 }
 
 #teamProfs {
-  display:flex;
+  display: flex;
   flex-direction: row;
-  width:100%
+  width: 100%;
 }
 
 #memberPhoto {
-  width:100%
+  width: 100%;
+}
+
+#outsideLine {
+  width: 30%;
+  height: 0.3rem;
+  color: #7f9a98;
+  background-color: #7f9a98;
+  border-radius: 0.5rem;
+}
+
+#insideLine {
+  width: 40%;
+  height: 0.3rem;
+  color: #657a7a;
+  background-color: #657a7a;
+  border-radius: 0.5rem;
 }

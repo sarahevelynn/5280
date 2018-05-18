@@ -4,8 +4,8 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 export class SiteButtons extends React.Component {
   render() {
     return (
-      <div id="navagationButtons">
-        <div id="welcome">
+      <div id="squareSection">
+        <div id="squareOne">
           <h2 id="homeButton"> Welcome </h2>
           <p>
             In Colorado, we are fortunate to live on one of the most innovative
@@ -18,7 +18,7 @@ export class SiteButtons extends React.Component {
             <div id="navagateButton">About Our Company</div>
           </Link>
         </div>
-        <div id="internButton">
+        <div id="squareTwo">
           <h2 id="homeButton"> Intern Connect </h2>
           <p>
             We want to help maximize your companys performance while giving
@@ -34,7 +34,7 @@ export class SiteButtons extends React.Component {
             <div id="navagateButton">Intern Connect</div>
           </Link>
         </div>
-        <div id="consultingButton">
+        <div id="squareThree">
           <h2 id="homeButton"> Consulting </h2>
           <p>
             Throughout our years of startup consulting one thing has remained

@@ -6,8 +6,8 @@ export class About extends React.Component {
     return (
       <div>
         <h1> About Us. </h1>
-        <div id="navagationButtons">
-          <div id="welcome">
+        <div id="squareSection">
+          <div id="squareOne">
             <h2> The Reason </h2>
             <p>
               An immense untapped resource exists in the Denver metropolitan
@@ -16,28 +16,17 @@ export class About extends React.Component {
               for learning and experience.
               <br />
               <br />
-              Meanwhile, the startup cohorts need qualified labor in numerous
-              areas, preferably at below-market cost.
-            </p>
-            <p>
-              We strive to help business owners develop a solid foundation and
-              business strategy so they can be successful.
-              <br />
-              <br />
-              We work in many different areas of your business to improve
-              productivity, organization, company culture and employee
-              relations.
+              Meanwhile, cohorts of startups need qualified labor in numerous
+              areas, preferably at a reasonable cost.
             </p>
           </div>
-          <div id="internButton">
-            <h2> The Goal </h2>
+          <div id="squareTwo">
+            <h2> The Solution </h2>
             <p>
-              We strive to improve business performance and provide opportunity
-              for students and young professionals to work in the startup world.
+              We strive to help business owners develop a solid foundation and
+              business strategy while providing opportunity for students and
+              young professionals to work in the startup world.
               <br />
-              <br />
-              Finding and hiring dependable employees or contractors can be
-              exhausting.
               <br />
               We provide qualified consultants to help you with any projects you
               do not have the expereince or time to do yourself.
@@ -46,19 +35,25 @@ export class About extends React.Component {
               who can thrive in the fast pace startup environment.
             </p>
           </div>
-          <div id="consultingButton">
-            <h2> The Solution </h2>
+          <div id="squareThree">
+            <h2> The Vision </h2>
             <p>
-              Running a business is not easy. With 5280 Startup Solutions, you
-              will learn solutions to common startup challenges so you can focus
-              on what is important - the idea implementation!
+              Running a business is not easy.
+              <br />
+              5280 Startup Solutions allows you to focus on what is important -
+              the idea implementation!
               <br />
               <br />
-              Whether you need us for contract work or intern placement, we are
-              the answer for getting what you need done when you need it done.
+              We envision a Colorado with startups who accomplish <i>all</i> their
+              goals. Whether you need contract work or intern placement, 5280
+              Startup Solutions is the answer for getting what you need done
+              when you need it done.
             </p>
           </div>
         </div>
+        <hr id="outsideLine"/>
+        <hr id="insideLine"/>
+        <hr id="outsideLine" />
       </div>
     );
   }

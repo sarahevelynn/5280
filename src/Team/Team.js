@@ -26,6 +26,9 @@ export class Team extends React.Component {
             <h4> Head of Marketing </h4>
           </div>
         </div>
+        <hr id="outsideLine"/>
+        <hr id="insideLine"/>
+        <hr id="outsideLine" />
       </div>
     );
   }

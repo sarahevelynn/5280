@@ -7,7 +7,7 @@ export class Partners extends React.Component {
   render() {
     return (
       <div>
-        <div id="expandInfo">
+        <div id="expandInfo1">
           <a href="https://pledge1colorado.org/" target="_blank">
             <h2 id="sectionHeader">Pledge 1% Colorado</h2>
           </a>
@@ -34,7 +34,7 @@ export class Partners extends React.Component {
           </a>
         </div>
 
-        <div id="expandInfo">
+        <div id="expandInfo2">
           <a href="http://www.projectxite.org/" target="_blank">
             <h2 id="sectionHeader"> Project X-ITE </h2>
           </a>
