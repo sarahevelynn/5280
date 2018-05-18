@@ -1,15 +1,15 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import denverD from "../assets/denverD.jpg";
-import internConnectLogo from "../assets/internConnectLogo.png";
-import tracktivismLogo from "../assets/tracktivismLogo.png";
-import socialCloudLogo from "../assets/socialCloudLogo.png";
-import DPTLogo from "../assets/DPTLogo.png";
-import BillTrack50Logo from "../assets/BillTrack50Logo.png";
-import GoldCalLogo from "../assets/GoldCalLogo.png";
-import GC from "../assets/GC.pdf";
-import MHWLogo from "../assets/MHWLogo.png";
-import MHWAnnualReport from "../assets/MHWAnnualReport.pdf";
+import denverD from "./assets/denverD.jpg";
+import internConnectLogo from "./assets/internConnectLogo.png";
+import tracktivismLogo from "./assets/tracktivismLogo.png";
+import socialCloudLogo from "./assets/socialCloudLogo.png";
+import DPTLogo from "./assets/DPTLogo.png";
+import BillTrack50Logo from "./assets/BillTrack50Logo.png";
+import GoldCalLogo from "./assets/GoldCalLogo.png";
+import GC from "./assets/GC.pdf";
+import MHWLogo from "./assets/MHWLogo.png";
+import MHWAnnualReport from "./assets/MHWAnnualReport.pdf";
 
 export class Projects extends React.Component {
   render() {

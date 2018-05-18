@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import denverD from "../assets/denverD.jpg";
+import denverD from "./assets/denverD.jpg";
 
 import { SiteButtons } from "./SiteButtons";
 import { Projects } from "./Projects";

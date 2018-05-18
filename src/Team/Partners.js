@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import projectXITE from "../assets/projectXITE.png";
-import pledge1CO from "../assets/pledge1CO.png";
+import projectXITE from "./assets/projectXITE.png";
+import pledge1CO from "./assets/pledge1CO.png";
 
 export class Partners extends React.Component {
   render() {
@@ -9,7 +9,7 @@ export class Partners extends React.Component {
       <div>
         <div id="info3">
         <a href="http://www.projectxite.org/" target="_blank">  <h2 id="sectionHeader"> Project X-ITE </h2> </a>
-          <div >
+          <div id="partnerInfo">
             <h3>
               Proud Partner with
               <a href="http://www.projectxite.org/" target="_blank">
@@ -54,7 +54,7 @@ export class Partners extends React.Component {
             </p>
           </div>
 
-          <img src={pledge1CO} />
+          <img src={pledge1CO} id="pledgePhoto"/>
         </div>
       </div>
     );

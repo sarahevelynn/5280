@@ -1,7 +1,7 @@
 import React from "react";
-import email from "../assets/email.png";
-import twitter from "../assets/twitter.png";
-import facebook from "../assets/facebook.png";
+import email from "./assets/email.png";
+import twitter from "./assets/twitter.png";
+import facebook from "./assets/facebook.png";
 
 export default function Footer() {
   return (
