@@ -197,7 +197,7 @@ footer {
 }
 
 #memberPhoto {
-  width: 100%;
+  width:100%
 }
 
 #outsideLine {
@@ -217,5 +217,11 @@ footer {
 }
 
 #consultant {
-  padding:1rem
+  padding:1rem;
+  width:100%
+}
+
+#contactPhoto {
+  width:15%;
+  padding: 0.5rem
 }
