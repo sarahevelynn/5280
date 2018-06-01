@@ -225,3 +225,16 @@ footer {
   width:15%;
   padding: 0.5rem
 }
+
+#clientInfo {
+  width:100%;
+  display:flex;
+  flex-flow: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#clientLogo {
+  padding:0.5rem
+}

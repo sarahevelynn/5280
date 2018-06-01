@@ -16,6 +16,7 @@ export class About extends React.Component {
               for learning and experience.
               <br />
               <br />
+              <br />
               Meanwhile, cohorts of startups need qualified labor in numerous
               areas, preferably at a reasonable cost.
             </p>

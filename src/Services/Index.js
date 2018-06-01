@@ -2,6 +2,8 @@ import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 import { Profiles } from "./Profiles.js";
+import { Clients } from "./Clients.js";
+
 
 
 export default class Consulting extends React.Component {
@@ -9,6 +11,7 @@ export default class Consulting extends React.Component {
     return (
       <div>
         <Profiles />
+        <Clients />
       </div>
     );
   }
