@@ -44,6 +44,9 @@ export class Clients extends React.Component {
             <img src={intelivideo} id="clientLogo" alt="intelivideo" />
           </a>
         </div>
+        <hr id="outsideLine" />
+        <hr id="insideLine" />
+        <hr id="outsideLine" />
       </div>
     );
   }
