@@ -32,7 +32,7 @@ export class SiteButtons extends React.Component {
           </p>
           <div id="internButtons">
             <div id="internButton"><a href="https://goo.gl/forms/pyujM8gRPhokvzBX2" target="_blank"> Apply for an Intern </a></div>
-            <div id="internButton"><a href="https://goo.gl/forms/pyujM8gRPhokvzBX2" target="_blank"> Apply for an Internship </a></div>
+            <div id="internButton"><a href="https://goo.gl/forms/cHHF55lJbNlWhro23" target="_blank"> Apply for an Internship </a></div>
             </div>
         </div>
         <div id="outterSquare">
