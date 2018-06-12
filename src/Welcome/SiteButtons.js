@@ -53,7 +53,7 @@ export class SiteButtons extends React.Component {
             We can help you get there.
           </p>
 
-          <Link to="/consulting">
+          <Link to="/services">
             <div id="navagateButton">Consulting</div>
           </Link>
         </div>
