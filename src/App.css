@@ -103,23 +103,25 @@ footer {
   align-items: center;
 }
 
-#squareOne {
+#outterSquare {
   padding: 1rem;
   width: 33%;
   background-color: #b3e1e5;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
 }
 
-#squareTwo {
+#innerSquare {
   padding: 1rem;
   width: 33%;
   background-color: #ccf1f2;
+  justify-content: center;
+  align-items:center;
+  flex-direction: column;
 }
 
-#squareThree {
-  padding: 1rem;
-  width: 33%;
-  background-color: #b3e1e5;
-}
 
 #navagateButton {
   display: flex;
@@ -129,6 +131,24 @@ footer {
   justify-content: center;
   align-items: center;
   text-align: center;
+}
+
+#internButtons{
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+#internButton{
+  display: flex;
+  background-color: #84afae;
+  width: 10rem;
+  height: 3rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0.5rem;
+  width:40%
 }
 
 #webProjects {

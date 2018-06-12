@@ -7,7 +7,7 @@ export class About extends React.Component {
       <div>
         <h1> About Us. </h1>
         <div id="squareSection">
-          <div id="squareOne">
+          <div id="outterSquare">
             <h2> The Reason </h2>
             <p>
               An immense untapped resource exists in the Denver metropolitan
@@ -21,7 +21,7 @@ export class About extends React.Component {
               areas, preferably at a reasonable cost.
             </p>
           </div>
-          <div id="squareTwo">
+          <div id="innerSquare">
             <h2> The Solution </h2>
             <p>
               We strive to help business owners develop a solid foundation and
@@ -36,7 +36,7 @@ export class About extends React.Component {
               who can thrive in the fast pace startup environment.
             </p>
           </div>
-          <div id="squareThree">
+          <div id="outterSquare">
             <h2> The Vision </h2>
             <p>
               Running a business is not easy.

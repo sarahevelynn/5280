@@ -5,7 +5,7 @@ export class SiteButtons extends React.Component {
   render() {
     return (
       <div id="squareSection">
-        <div id="squareOne">
+        <div id="outterSquare">
           <h2 id="homeButton"> Welcome </h2>
           <p>
             In Colorado, we are fortunate to live on one of the most innovative
@@ -18,7 +18,7 @@ export class SiteButtons extends React.Component {
             <div id="navagateButton">About Our Company</div>
           </Link>
         </div>
-        <div id="squareTwo">
+        <div id="innerSquare">
           <h2 id="homeButton"> Intern Connect </h2>
           <p>
             We want to help maximize your companys performance while giving
@@ -30,11 +30,12 @@ export class SiteButtons extends React.Component {
             Colorado College amongst others, saturated with potential and drive,
             ripe for the picking of startups.
           </p>
-          <Link to="/intern-connect">
-            <div id="navagateButton">Intern Connect</div>
-          </Link>
+          <div id="internButtons">
+            <div id="internButton"><a href="https://goo.gl/forms/pyujM8gRPhokvzBX2" target="_blank"> Apply for an Intern </a></div>
+            <div id="internButton"><a href="https://goo.gl/forms/pyujM8gRPhokvzBX2" target="_blank"> Apply for an Internship </a></div>
+            </div>
         </div>
-        <div id="squareThree">
+        <div id="outterSquare">
           <h2 id="homeButton"> Consulting </h2>
           <p>
             Throughout our years of startup consulting one thing has remained
