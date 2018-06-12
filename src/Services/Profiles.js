@@ -61,7 +61,7 @@ export class Profiles extends React.Component {
             </a>
           </div>
           <div id="consultant">
-            <a href={"mailto:sOsaaihiebiz@gmail.com"} target="_blank">
+            <a href={"mailto:Osaaihiebiz@gmail.com"} target="_blank">
               <img src={email} id="contactPhoto" alt="email " />
             </a>
             <a href={"https://www.linkedin.com/in/osaaihie/"} target="_blank">
