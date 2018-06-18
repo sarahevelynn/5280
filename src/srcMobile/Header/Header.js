@@ -12,9 +12,6 @@ export default function Header() {
       </div>
       <div>
         <nav id="navBarMobile">
-          <Link to="/">
-            <h2 id="navItem">Home</h2>
-          </Link>
           <Link to="/about">
             <h2 id="navItem">About</h2>
           </Link>

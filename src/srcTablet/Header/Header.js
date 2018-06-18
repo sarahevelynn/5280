@@ -11,7 +11,7 @@ export default function Header() {
         </Link>
       </div>
       <div id="navBar">
-        <h2 id="tagline">Helping Startups Startup</h2>
+        <h2 id="taglineTablet">Helping Startups Startup</h2>
         <nav>
           <Link to="/">
             <h2 id="navItem">Home</h2>

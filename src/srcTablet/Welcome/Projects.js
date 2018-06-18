@@ -20,7 +20,7 @@ export class Projects extends React.Component {
         <div id="webProjects">
           <div id="projectTile">
             <img
-              id="projectIcon"
+              id="projectIconTablet"
               src={internConnectLogo}
               alt="Intern Connect"
             />
@@ -33,7 +33,7 @@ export class Projects extends React.Component {
             </a>
           </div>
           <div id="projectTile">
-            <img id="projectIcon" src={tracktivismLogo} alt="Tracktivism" />
+            <img id="projectIconTablet" src={tracktivismLogo} alt="Tracktivism" />
             <a
               id="projectTitle"
               target="_blank"
@@ -43,7 +43,7 @@ export class Projects extends React.Component {
             </a>
           </div>
           <div id="projectTile">
-            <img id="projectIcon" src={socialCloudLogo} alt="Intern Connect" />
+            <img id="projectIconTablet" src={socialCloudLogo} alt="Intern Connect" />
             <a
               id="projectTitle"
               target="_blank"
@@ -53,7 +53,7 @@ export class Projects extends React.Component {
             </a>
           </div>
           <div id="projectTile">
-            <img id="projectIcon" src={DPTLogo} alt="Intern Connect" />
+            <img id="projectIconTablet" src={DPTLogo} alt="Intern Connect" />
             <a
               id="projectTitle"
               target="_blank"
@@ -66,7 +66,7 @@ export class Projects extends React.Component {
 
         <div id="webProjects">
           <div id="projectTile">
-            <img id="projectIcon" src={BillTrack50Logo} alt="Intern Connect" />
+            <img id="projectIconTablet" src={BillTrack50Logo} alt="Intern Connect" />
             <a
               id="projectTitle"
               target="_blank"
@@ -78,7 +78,7 @@ export class Projects extends React.Component {
 
           <div id="projectTile">
             <img
-              id="projectIcon"
+              id="projectIconTablet"
               src={GoldCalLogo}
               alt="Intern Connect"
             />
@@ -88,7 +88,7 @@ export class Projects extends React.Component {
           </div>
 
           <div id="projectTile">
-            <img id="projectIcon" src={MHWLogo} alt="Intern Connect" />
+            <img id="projectIconTablet" src={MHWLogo} alt="Intern Connect" />
             <a
               id="projectTitle"
               href={MHWAnnualReport}

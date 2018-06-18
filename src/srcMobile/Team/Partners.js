@@ -6,7 +6,7 @@ import pledge1CO from "./assets/pledge1CO.png";
 export class Partners extends React.Component {
   render() {
     return (
-      <div>
+      <div id="partners">
         <div id="expandInfo1Mobile">
           <a href="https://pledge1colorado.org/" target="_blank">
             <h2 id="sectionHeader">Pledge 1% Colorado</h2>

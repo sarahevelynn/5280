@@ -14,34 +14,34 @@ export class Clients extends React.Component {
     return (
       <div>
         <h1>Meet Some of Our Clients </h1>
-        <div id="clientInfo">
+        <div id="clientInfoMobile">
           <a href="http://www.cliexa.com/" target="_blank">
-            <img src={cliexa} id="clientLogo" alt="cliexa" />
+            <img src={cliexa} id="clientLogoTablet" alt="cliexa" />
           </a>
           <a href="http://www.pawsandreward.com/" target="_blank">
-            <img src={paws} id="clientLogo" alt="paws and reward" />
+            <img src={paws} id="clientLogoTablet" alt="paws and reward" />
           </a>
         </div>
-        <div id="clientInfo">
+        <div id="clientInfoMobile">
           <a href="https://www.billtrack50.com/" target="_blank">
-            <img src={bt50} id="clientLogo" alt="BillTrack50" />
+            <img src={bt50} id="clientLogoTablet" alt="BillTrack50" />
           </a>
           <a href="https://www.milehighworkshop.org/" target="_blank">
-            <img src={mhws} id="clientLogo" alt="Mile High Workshop" />
+            <img src={mhws} id="clientLogoTablet" alt="Mile High Workshop" />
           </a>
           <a href="http://uascoalition.org/" target="_blank">
-            <img src={uasCo} id="clientLogo" alt="UAS Coalition" />
+            <img src={uasCo} id="clientLogoTablet" alt="UAS Coalition" />
           </a>
         </div>
-        <div id="clientInfo">
+        <div id="clientInfoMobile">
           <a href="https://agribotix.com/" target="_blank">
-            <img src={agribotix} id="clientLogo" alt="Agribotix" />
+            <img src={agribotix} id="clientLogoTablet" alt="Agribotix" />
           </a>
           <a href="https://www.1millioncups.com/" target="_blank">
-            <img src={Den1mc} id="clientLogo" alt="1 Million Cups Denver" />
+            <img src={Den1mc} id="clientLogoTablet" alt="1 Million Cups Denver" />
           </a>
           <a href="https://www.intelivideo.com/" target="_blank">
-            <img src={intelivideo} id="clientLogo" alt="intelivideo" />
+            <img src={intelivideo} id="clientLogoTablet" alt="intelivideo" />
           </a>
         </div>
         <hr id="outsideLine" />
