@@ -13,12 +13,12 @@ export default function Header() {
       <div>
         <nav id="navBarMobile">
           <Link to="/about">
-            <h2 id="navItem">About</h2>
+            <h2 id="navItemMobile">About</h2>
           </Link>
           <Link to="/services">
-            <h2 id="navItem">Services</h2>
+            <h2 id="navItemMobile">Services</h2>
           </Link>
-          <a href={"mailto:sarah@5280startupsolutions.co"}><h2 id="navItem">Contact Us </h2></a>
+          <a href={"mailto:sarah@5280startupsolutions.co"}><h2 id="navItemMobile">Contact Us </h2></a>
         </nav>
       </div>
     </header>
