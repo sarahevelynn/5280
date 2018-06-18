@@ -42,7 +42,9 @@ export class Partners extends React.Component {
             <h3>
               Proud Partner with{" "}
               <a href="http://www.projectxite.org/" target="_blank">
-                Project X-ITE{" "}
+                Project
+                <br />
+                X-ITE{" "}
               </a>{" "}
               at the University of Denver
             </h3>
