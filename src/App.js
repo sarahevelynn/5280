@@ -1,28 +1,28 @@
 import React, { Component } from "react";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import './App.css';
-import Header from "./Header/Header.js";
-import Footer from "./Footer/Footer.js";
-import Homepage from "./Welcome/Index.js"
-import CompanyInfo from "./Team/Index.js";
-import Consulting from "./Services/Index.js";
+import "./App.css";
+import DesktopBreakpoint from "./Responsive_Utilities/desktop_breakpoint";
+import TabletBreakpoint from "./Responsive_Utilities/tablet_breakpoint";
+import PhoneBreakpoint from "./Responsive_Utilities/phone_breakpoint";
+import Desktop from "./srcDesktop/Index.js";
+import Mobile from "./srcMobile/Index.js";
+import Tablet from "./srcTablet/Index.js";
 
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Router>
-          <div className="App-content">
-            <Header />
-            <Route exact path="/" component={Homepage} />
-            <Route exact path="/about" component={CompanyInfo} />
-            <Route exact path="/services" component={Consulting} />
-            <Footer />
-          </div>
-      </Router>
+      <div id="App">
+        <DesktopBreakpoint>
+          <Desktop />
+        </DesktopBreakpoint>
+        <TabletBreakpoint>
+          <Tablet />
+        </TabletBreakpoint>
+        <PhoneBreakpoint>
+          <Mobile />
+        </PhoneBreakpoint>
       </div>
-
     );
   }
 }

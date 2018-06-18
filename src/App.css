@@ -26,7 +26,7 @@ nav {
   display: flex;
   flex-direction: row;
   font-size: 1.2rem;
-  padding-right: 6rem
+  padding-right: 6rem;
 }
 
 a {
@@ -53,12 +53,17 @@ p {
 footer {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
   flex-direction: row;
 }
 
 .logo {
   height: 11rem;
+  padding: 1rem 0 0 1rem;
+}
+
+.mobileLogo {
+  height: 6rem;
   padding: 1rem 0 0 1rem;
 }
 
@@ -72,17 +77,34 @@ footer {
   flex-direction: column;
 }
 
+#navBarMobile {
+  display: flex;
+  flex-direction: row;
+  font-size: 1rem;
+  flex-wrap: wrap;
+}
+
 #navItem {
   padding: 0 1rem;
-  color: #bce0e5
+  color: #bce0e5;
 }
 #navItem:hover {
-  color: #9cbabc
+  color: #9cbabc;
 }
 
 .socialPhoto {
   width: 70px;
   padding: 0.5rem 3rem 0.5rem 1rem;
+}
+
+.socialPhotoMobile {
+  width: 50px;
+  padding: 0.5rem 3rem 0.5rem 1rem;
+}
+
+#social {
+  display: flex;
+  flex-direction: row;
 }
 
 #copy {
@@ -107,9 +129,9 @@ footer {
   padding: 1rem;
   width: 33%;
   background-color: #b3e1e5;
-  display:flex;
+  display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   flex-direction: column;
 }
 
@@ -118,10 +140,39 @@ footer {
   width: 33%;
   background-color: #ccf1f2;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   flex-direction: column;
 }
 
+#mobileSquares {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#mobileTop {
+  padding: 1rem;
+  background-color: #b3e1e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+#mobileMiddle {
+  padding: 1rem;
+  background-color: #ccf1f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 1rem;
+}
 
 #navagateButton {
   display: flex;
@@ -133,13 +184,13 @@ footer {
   text-align: center;
 }
 
-#internButtons{
-  display:flex;
+#internButtons {
+  display: flex;
   justify-content: space-between;
   flex-direction: row;
 }
 
-#internButton{
+#internButton {
   display: flex;
   background-color: #84afae;
   width: 10rem;
@@ -148,7 +199,7 @@ footer {
   align-items: center;
   text-align: center;
   margin: 0.5rem;
-  width:40%
+  width: 40%;
 }
 
 #webProjects {
@@ -176,24 +227,24 @@ footer {
 
 #expandInfo1 {
   display: flex;
-  flex-direction: row;
-  width: 95%;
+  flex-direction: column;
+  width: 90%;
   padding: 1rem;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   background-color: #a2cccb;
-  margin: 1rem
+  margin: 1rem;
 }
 
 #expandInfo2 {
   display: flex;
-  flex-direction: row;
-  width: 95%;
+  flex-direction: column;
+  width: 90%;
   padding: 1rem;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   background-color: #bce0e4;
-  margin: 1rem
+  margin: 1rem;
 }
 
 #sectionHeader {
@@ -212,12 +263,12 @@ footer {
 
 #teamProfs {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   width: 100%;
 }
 
 #memberPhoto {
-  width:100%
+  width: 100%;
 }
 
 #outsideLine {
@@ -237,18 +288,18 @@ footer {
 }
 
 #consultant {
-  padding:1rem;
-  width:100%
+  padding: 1rem;
+  width: 100%;
 }
 
 #contactPhoto {
-  width:15%;
-  padding: 0.5rem
+  width: 15%;
+  padding: 0.5rem;
 }
 
 #clientInfo {
-  width:100%;
-  display:flex;
+  width: 100%;
+  display: flex;
   flex-flow: row;
   flex-wrap: nowrap;
   justify-content: space-around;
@@ -256,5 +307,5 @@ footer {
 }
 
 #clientLogo {
-  padding:0.5rem
+  padding: 0.5rem;
 }
