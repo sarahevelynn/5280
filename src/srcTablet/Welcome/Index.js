@@ -18,6 +18,9 @@ export default class Homepage extends React.Component {
         />
         <SiteButtons />
         <Projects />
+        <hr id="outsideLine"/>
+        <hr id="insideLine"/>
+        <hr id="outsideLine" />
       </div>
     );
   }

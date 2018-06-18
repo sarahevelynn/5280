@@ -13,6 +13,9 @@ export default class CompanyInfo extends React.Component {
         <About />
         <Team />
         <Partners />
+        <hr id="outsideLine"/>
+        <hr id="insideLine"/>
+        <hr id="outsideLine" />
       </div>
     );
   }

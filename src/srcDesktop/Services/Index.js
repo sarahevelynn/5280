@@ -12,6 +12,9 @@ export default class Consulting extends React.Component {
       <div>
         <Profiles />
         <Clients />
+        <hr id="outsideLine"/>
+        <hr id="insideLine"/>
+        <hr id="outsideLine" />
       </div>
     );
   }
