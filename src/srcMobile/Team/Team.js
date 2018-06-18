@@ -9,7 +9,7 @@ export class Team extends React.Component {
     return (
       <div>
         <h1>Meet Our Team </h1>
-        <div id="teamProfs">
+        <div id="teamProfsMobile">
           <div id="member">
             <img id="memberPhoto" src={sarahEvelynn} />
             <h2> SarahEvelynn Johnson</h2>
