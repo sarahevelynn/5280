@@ -45,15 +45,17 @@ export class About extends React.Component {
               the idea implementation!
               <br />
               <br />
-              We envision a Colorado with startups who accomplish <i>all</i> their
-              goals. Whether you need contract work or intern placement, 5280
-              Startup Solutions is the answer for getting what you need done
-              when you need it done.
+              We envision a Colorado with startups who accomplish <i>
+                all
+              </i>{" "}
+              their goals. Whether you need contract work or intern placement,
+              5280 Startup Solutions is the answer for getting what you need
+              done when you need it done.
             </p>
           </div>
         </div>
-        <hr id="outsideLine"/>
-        <hr id="insideLine"/>
+        <hr id="outsideLine" />
+        <hr id="insideLine" />
         <hr id="outsideLine" />
       </div>
     );

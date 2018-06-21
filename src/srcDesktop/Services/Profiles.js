@@ -34,7 +34,7 @@ export class Profiles extends React.Component {
               Expertise: Content Writing, Data Analytics & Business Strategy
             </h4>
             <h4>
-              Rate: $50/hr & {" "}
+              Rate: $50/hr &{" "}
               <a target="_blank" href="https://kreateable.com/">
                 See website for writing package pricing
               </a>
@@ -56,7 +56,10 @@ export class Profiles extends React.Component {
             <a href={"mailto:sarah@5280startupsolutions.co"} target="_blank">
               <img src={email} id="contactPhoto" alt="email " />
             </a>
-            <a href={"https://www.linkedin.com/in/sarahevelynn/"} target="_blank">
+            <a
+              href={"https://www.linkedin.com/in/sarahevelynn/"}
+              target="_blank"
+            >
               <img src={linkedIn} id="contactPhoto" alt="linkedIn " />
             </a>
           </div>
@@ -72,7 +75,10 @@ export class Profiles extends React.Component {
             <a href={"mailto:MichaelTMoore94@gmail.com"} target="_blank">
               <img src={email} id="contactPhoto" alt="email " />
             </a>
-            <a href={"https://www.linkedin.com/in/mooremichaelt/"} target="_blank">
+            <a
+              href={"https://www.linkedin.com/in/mooremichaelt/"}
+              target="_blank"
+            >
               <img src={linkedIn} id="contactPhoto" alt="linkedIn " />
             </a>
           </div>
@@ -113,7 +119,10 @@ export class Profiles extends React.Component {
             <a href={"mailto:Jenna.rodger@colorado.edu"} target="_blank">
               <img src={email} id="contactPhoto" alt="email " />
             </a>
-            <a href={"https://www.linkedin.com/in/jenna-rodger-774644134/"} target="_blank">
+            <a
+              href={"https://www.linkedin.com/in/jenna-rodger-774644134/"}
+              target="_blank"
+            >
               <img src={linkedIn} id="contactPhoto" alt="linkedIn " />
             </a>
           </div>
@@ -129,7 +138,10 @@ export class Profiles extends React.Component {
             <a href={"mailto:Manninglizzle@gmail.com"} target="_blank">
               <img src={email} id="contactPhoto" alt="email " />
             </a>
-            <a href={"https://www.linkedin.com/in/madebymanning/"} target="_blank">
+            <a
+              href={"https://www.linkedin.com/in/madebymanning/"}
+              target="_blank"
+            >
               <img src={linkedIn} id="contactPhoto" alt="linkedIn " />
             </a>
           </div>

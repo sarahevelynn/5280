@@ -5,7 +5,6 @@ import { About } from "./About.js";
 import { Partners } from "./Partners.js";
 import { Team } from "./Team.js";
 
-
 export default class CompanyInfo extends React.Component {
   render() {
     return (
@@ -13,8 +12,8 @@ export default class CompanyInfo extends React.Component {
         <About />
         <Team />
         <Partners />
-        <hr id="outsideLine"/>
-        <hr id="insideLine"/>
+        <hr id="outsideLine" />
+        <hr id="insideLine" />
         <hr id="outsideLine" />
       </div>
     );

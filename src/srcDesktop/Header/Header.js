@@ -25,7 +25,9 @@ export default function Header() {
             <h2 id="navItem">Our Services </h2>
           </Link>
           <h2>::</h2>
-          <a href={"mailto:sarah@5280startupsolutions.co"}><h2 id="navItem">Contact Us </h2></a>
+          <a href={"mailto:sarah@5280startupsolutions.co"}>
+            <h2 id="navItem">Contact Us </h2>
+          </a>
         </nav>
       </div>
     </header>
