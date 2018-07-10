@@ -43,21 +43,21 @@ export class Projects extends React.Component {
             </a>
           </div>
           <div id="projectTile">
-            <img id="projectIconTablet" src={socialCloudLogo} alt="Intern Connect" />
+            <img id="projectIconTablet" src={socialCloudLogo} alt="Social Cloud" />
             <a
               id="projectTitle"
               target="_blank"
-              href={"https://intern-connect.firebaseapp.com/"}
+              href={"https://social-cloud-trends.firebaseapp.com/"}
             >
               Social Cloud
             </a>
           </div>
           <div id="projectTile">
-            <img id="projectIconTablet" src={DPTLogo} alt="Intern Connect" />
+            <img id="projectIconTablet" src={DPTLogo} alt="DPT" />
             <a
               id="projectTitle"
               target="_blank"
-              href={"https://intern-connect.firebaseapp.com/"}
+              href={"https://www.degrandisphysicaltherapy.com/"}
             >
               DPT
             </a>
@@ -66,7 +66,7 @@ export class Projects extends React.Component {
 
         <div id="webProjects">
           <div id="projectTile">
-            <img id="projectIconTablet" src={BillTrack50Logo} alt="Intern Connect" />
+            <img id="projectIconTablet" src={BillTrack50Logo} alt="BillTrack50" />
             <a
               id="projectTitle"
               target="_blank"
@@ -80,7 +80,7 @@ export class Projects extends React.Component {
             <img
               id="projectIconTablet"
               src={GoldCalLogo}
-              alt="Intern Connect"
+              alt="Gold Calendar"
             />
             <a id="projectTitle" href={GC} download="Gold Calendar Collateral">
               Gold Calendar
@@ -88,7 +88,7 @@ export class Projects extends React.Component {
           </div>
 
           <div id="projectTile">
-            <img id="projectIconTablet" src={MHWLogo} alt="Intern Connect" />
+            <img id="projectIconTablet" src={MHWLogo} alt="MHW" />
             <a
               id="projectTitle"
               href={MHWAnnualReport}
