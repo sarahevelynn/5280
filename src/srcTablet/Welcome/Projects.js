@@ -19,18 +19,17 @@ export class Projects extends React.Component {
 
         <div id="webProjects">
           <div id="projectTile">
-            <a
-              id="projectTitle"
-              target="_blank"
-              href={"https://intern-connect.firebaseapp.com/"}
-            >
-              <img
-                id="projectIconTablet"
-                src={internConnectLogo}
-                alt="Intern Connect"
-              />
+          <a
+            id="projectTitle"
+            target="_blank"
+            href={"https://intern-connect.firebaseapp.com/"}
+          >
+            <img
+              id="projectIconTablet"
+              src={internConnectLogo}
+              alt="Intern Connect"
+            />
             </a>
-
             <a
               id="projectTitle"
               target="_blank"
@@ -39,20 +38,18 @@ export class Projects extends React.Component {
               Intern Connect
             </a>
           </div>
-
           <div id="projectTile">
-            <a
-              id="projectTitle"
-              target="_blank"
-              href={"https://tracktivism.herokuapp.com/"}
-            >
-              <img
-                id="projectIconTablet"
-                src={tracktivismLogo}
-                alt="Tracktivism"
-              />
+          <a
+            id="projectTitle"
+            target="_blank"
+            href={"https://tracktivism.herokuapp.com/"}
+          >
+            <img
+              id="projectIconTablet"
+              src={tracktivismLogo}
+              alt="Tracktivism"
+            />
             </a>
-
             <a
               id="projectTitle"
               target="_blank"
@@ -61,22 +58,18 @@ export class Projects extends React.Component {
               Tracktivism
             </a>
           </div>
-        </div>
-
-        <div id="webProjects">
           <div id="projectTile">
-            <a
-              id="projectTitle"
-              target="_blank"
-              href={"https://social-cloud-trends.firebaseapp.com/"}
-            >
-              <img
-                id="projectIconTablet"
-                src={socialCloudLogo}
-                alt="Social Cloud"
-              />
+          <a
+            id="projectTitle"
+            target="_blank"
+            href={"https://social-cloud-trends.firebaseapp.com/"}
+          >
+            <img
+              id="projectIconTablet"
+              src={socialCloudLogo}
+              alt="Social Cloud"
+            />
             </a>
-
             <a
               id="projectTitle"
               target="_blank"
@@ -137,13 +130,12 @@ export class Projects extends React.Component {
                 alt="Gold Calendar"
               />
             </a>
+
             <a id="projectTitle" href={GC} download="Gold Calendar Collateral">
               Gold Calendar
             </a>
           </div>
-        </div>
 
-        <div id="webProjects">
           <div id="projectTile">
             <a
               id="projectTitle"
@@ -152,7 +144,6 @@ export class Projects extends React.Component {
             >
               <img id="projectIconTablet" src={MHWLogo} alt="MHW" />
             </a>
-            <img id="projectIconTablet" src={MHWLogo} alt="MHW" />
             <a
               id="projectTitle"
               href={MHWAnnualReport}

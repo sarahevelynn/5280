@@ -152,7 +152,6 @@ export class Projects extends React.Component {
             >
               <img id="projectIconMobile" src={MHWLogo} alt="MHW" />
             </a>
-            <img id="projectIconMobile" src={MHWLogo} alt="MHW" />
             <a
               id="projectTitle"
               href={MHWAnnualReport}
