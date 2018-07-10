@@ -19,11 +19,18 @@ export class Projects extends React.Component {
 
         <div id="webProjects">
           <div id="projectTile">
-            <img
-              id="projectIconMobile"
-              src={internConnectLogo}
-              alt="Intern Connect"
-            />
+            <a
+              id="projectTitle"
+              target="_blank"
+              href={"https://intern-connect.firebaseapp.com/"}
+            >
+              <img
+                id="projectIconMobile"
+                src={internConnectLogo}
+                alt="Intern Connect"
+              />
+            </a>
+
             <a
               id="projectTitle"
               target="_blank"
@@ -34,7 +41,18 @@ export class Projects extends React.Component {
           </div>
 
           <div id="projectTile">
-            <img id="projectIconMobile" src={tracktivismLogo} alt="Tracktivism" />
+            <a
+              id="projectTitle"
+              target="_blank"
+              href={"https://tracktivism.herokuapp.com/"}
+            >
+              <img
+                id="projectIconMobile"
+                src={tracktivismLogo}
+                alt="Tracktivism"
+              />
+            </a>
+
             <a
               id="projectTitle"
               target="_blank"
@@ -43,11 +61,22 @@ export class Projects extends React.Component {
               Tracktivism
             </a>
           </div>
-          </div>
+        </div>
 
-          <div id="webProjects">
+        <div id="webProjects">
           <div id="projectTile">
-            <img id="projectIconMobile" src={socialCloudLogo} alt="Social Cloud" />
+            <a
+              id="projectTitle"
+              target="_blank"
+              href={"https://social-cloud-trends.firebaseapp.com/"}
+            >
+              <img
+                id="projectIconMobile"
+                src={socialCloudLogo}
+                alt="Social Cloud"
+              />
+            </a>
+
             <a
               id="projectTitle"
               target="_blank"
@@ -57,7 +86,13 @@ export class Projects extends React.Component {
             </a>
           </div>
           <div id="projectTile">
-            <img id="projectIconMobile" src={DPTLogo} alt="DPT" />
+            <a
+              id="projectTitle"
+              target="_blank"
+              href={"https://www.degrandisphysicaltherapy.com/"}
+            >
+              <img id="projectIconMobile" src={DPTLogo} alt="DPT" />
+            </a>
             <a
               id="projectTitle"
               target="_blank"
@@ -70,7 +105,17 @@ export class Projects extends React.Component {
 
         <div id="webProjects">
           <div id="projectTile">
-            <img id="projectIconMobile" src={BillTrack50Logo} alt="BillTrack50" />
+            <a
+              id="projectTitle"
+              target="_blank"
+              href={"https://www.billtrack50.com/blog/"}
+            >
+              <img
+                id="projectIconMobile"
+                src={BillTrack50Logo}
+                alt="BillTrack50"
+              />
+            </a>
             <a
               id="projectTitle"
               target="_blank"
@@ -81,19 +126,32 @@ export class Projects extends React.Component {
           </div>
 
           <div id="projectTile">
-            <img
-              id="projectIconMobile"
-              src={GoldCalLogo}
-              alt="Gold Calendar"
-            />
+            <a
+              id="projectTitle"
+              target="_blank"
+              href={"https://www.goldcalendar.com/"}
+            >
+              <img
+                id="projectIconMobile"
+                src={GoldCalLogo}
+                alt="Gold Calendar"
+              />
+            </a>
             <a id="projectTitle" href={GC} download="Gold Calendar Collateral">
               Gold Calendar
             </a>
           </div>
-          </div>
+        </div>
 
-          <div id="webProjects">
+        <div id="webProjects">
           <div id="projectTile">
+            <a
+              id="projectTitle"
+              target="_blank"
+              href={"https://www.milehighworkshop.org/"}
+            >
+              <img id="projectIconMobile" src={MHWLogo} alt="MHW" />
+            </a>
             <img id="projectIconMobile" src={MHWLogo} alt="MHW" />
             <a
               id="projectTitle"
