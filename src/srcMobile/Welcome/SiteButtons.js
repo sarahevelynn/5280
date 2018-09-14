@@ -46,7 +46,7 @@ export class SiteButtons extends React.Component {
             whatever you simply do not have the resources for:
             <br />
             Web Development, App Development, Digital Marketing, Social Media,
-            Advertising, Microfinance planning , Small Business Lending, User
+            Advertising, Microfinance planning, Small Business Lending, User
             Experience, etc.
             <br />
             <br />
